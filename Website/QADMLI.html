@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">  
+<script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script> 
+</head>
+
+
+
+<!---    header    -->
+<body>
+    <section class="sub-header6">
+        <nav>
+            <a href="index.html"><img src="images/logo2023.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="AUK.html">AUK</a></li>
+                    <li><a href="AUM.html">AUM</a></li>
+                    <li><a href="AIU.html">AIU</a></li>
+                    <li><a href="GUST.html">GUST</a></li>
+                    <li><a href="KCST.html">KCST</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="QADMLI.html">QADMLI</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>QADMLI</h1>
+        <p>WELCOME TO QADMLI ! <br> QADMLI helps you to find the appropriate major and university to apply to </p>
+    </section>
+
+    <!--form-->
+
+    <section class="QADMLI">   
+     <h1> Please enter your Email and upload your file which include your Civil ID , Passport , School Certificate and your IELTS:</h1>
+      <div class="form-wrapper">
+       
+        <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="file">Choose a file:</label>
+          <input type="file" id="file" name="file" onchange="calculatePayment()">
+          <label for="payment">Payment:</label>
+          <input type="number" id="payment" name="payment" step="0.01" min="0" readonly>
+          <button type="submit">Upload & Pay</button>
+        </form>
+      </div>
+    </section>
+
+    
+    
+
+
+
+    
+
+
+
+<!-----footer---->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="KCST.html">KCST</a></li>
+                    <li><a href="AUK.html">AUK</a></li>
+                    <li><a href="AUM.html">AUM</a></li>
+                    <li><a href="AIU.html">AIU</a></li>
+                    <li><a href="GUST.html">GUST</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="QADMLI.html">QADMLI</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-about">
+                <h3 class="footer-about-title">About Us</h3>
+                <p class="footer-about-text">Here were you can find your appropriate major and university in Kuwait.</p>
+              </div>
+            
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer-copy">&copy; 2023 Kuwait Campus.<br> All Rights Reserved.</p>
+
+
+
+
+</footer>
+
+
+
+</body>
+</html>

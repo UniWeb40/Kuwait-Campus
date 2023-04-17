@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">  
+<script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script> 
+</head>
+
+
+
+<!---    header    -->
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="images/logo2023.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="KCST.html">KCST</a></li>
+                    <li><a href="AUK.html">AUK</a></li>
+                    <li><a href="AUM.html">AUM</a></li>
+                    <li><a href="AIU.html">AIU</a></li>
+                    <li><a href="GUST.html">GUST</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="QADMLI.html">QADMLI</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>American University of <br> the Middle East </h1>
+    </section>
+
+    <!--about us content-->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1> American University of  <br> the Middle East  </h1>
+            <p> The American University of the Middle East (AUM) is a leading higher education institution established in 2005 in Kuwait. AUM has two colleges:
+                 the College of Engineering and Technology and the College of Business Administration, 
+                in addition to a Liberal Arts Department and an English Preparatory Program.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+
+        <div class="about-col">
+            <img src="images/aum_about.jpg">
+        </div>
+    </div>
+
+
+
+    
+    <!---------------course----->
+
+    <section class="course">
+        <h1>Degree Programs AUM offers</h1>
+        <p></p>
+        <div class="row">
+    <div class="course-col">
+        <h3>College of Business Administration</h3>
+        <p>Accounting
+            <br>- Finance
+            <br>- Management Information System (MIS)
+            <br>- Marketing
+            <br>- Human Resource Management
+            <br>- Masters of Business Administration (MBA)
+            </p>
+                       
+    </div>
+    <div class="course-col">
+        <h3>College of Engineering and Technology</h3>
+        <p>Accounting
+            <br>- Civil Engineering
+            <br>- Industrial Engineering
+            <br>- Computer Engineering
+            <br>- Electrical Engineering
+            <br>- Mechanical Engineering
+            <br>- Chemical Engineering
+            <br>- Architectural Engineering
+            <br>- Information Systems and Technology
+            <br>- Telecommunications and Networking Technology
+            </p>
+</div>
+
+</div>
+
+</section>
+       
+
+
+
+
+
+<!--------campus----->
+
+<section class="campus-aiu">
+    <h1>AUM Campus </h1>
+   <p> </p>
+
+    
+        <div class="campus-col-aiu">
+            <img src="images/aum_campus.jpg">
+            <div class=" layer-aiu">
+                <h3>Egaila</h3>
+            </div>   
+        </div>
+ 
+        
+       
+</section>
+
+
+
+
+<!------ JavaScript for toggle menu --------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+<!----Facilities--->
+
+<section class="facilities">
+    <h1>AUM facilities</h1>
+    <p>Lorem ipsum dolor sit ament , consectetur adipiscing elit .</p>
+
+    </section>
+
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/aum_wsroom.jpeg">
+            <h3>Seminar and Workshop Rooms</h3>
+            <p> </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/aum_cafe.jpg">
+            <h3>AUM Cafe</h3>
+            <p></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/aum_exhibition.jpeg">
+            <h3>Exhibition Area</h3>
+            <p> </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!--- contact us -->
+
+<section class=" location">
+    <h1>For Contact</h1>
+    <iframe src= "https://www.google.com/maps/embed?
+    pb=lim18!1m1211 1m3! 1d31105.73159475817!2d77.67501137986149!3d12.95799
+                                              width="600" height="450"
+    style="border:e;" allowfullscreens" loading="lazy"></iframe>
+</section>
+
+<section class ="contact-us ">
+    <div class = " row "></div>
+        <div class = "contact-col">
+         <div>  
+             <i class ="fa fa-home"></i>
+              <span>
+                  <h5>Block 6, Building 1 </h5>
+                  <p>  Egaila, KW </p>
+                </span> 
+           </div>
+           <div>  
+               <i class ="fa fa-phone"></i>
+               <span>
+                 <h5>(+965) 2225 1400 </h5>
+                 <p> Sunday to Thursday , 8AM to 8PM </p>
+               </span> 
+          </div>
+          <div>  
+            <i class ="fa fa-envelope-o"></i>
+             <span>
+                 <h5> info@aum.edu.kw </h5>
+                 <p> Email AUM for your general inquiries.</p>
+               </span> 
+          </div>
+        </div>
+
+   
+</section>
+
+
+
+
+<!-----footer---->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="KCST.html">KCST</a></li>
+                    <li><a href="AUK.html">AUK</a></li>
+                    <li><a href="AUM.html">AUM</a></li>
+                    <li><a href="AIU.html">AIU</a></li>
+                    <li><a href="GUST.html">GUST</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="QADMLI.html">QADMLI</a></li>
+                </ul>
+            </div>
+        
+            <div class="footer-about">
+                <h3 class="footer-about-title">About Us</h3>
+                <p class="footer-about-text">Here were you can find your appropriate major and university in Kuwait.</p>
+              </div>
+            
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer-copy">&copy; 2023 Kuwait Campus.<br> All Rights Reserved.</p>
+
+
+
+
+</footer>
+
+
+
+
+</body>
+</html>
